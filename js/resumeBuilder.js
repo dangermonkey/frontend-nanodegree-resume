@@ -167,7 +167,7 @@ work.display = function() {
         var formattedWorkDescription = HTMLworkDescription.replace("%data%", job.description);
         $(".work-entry:last").append(formattedWorkDescription);
 
-    })
+    });
 };
 
 
@@ -211,7 +211,7 @@ projects.display = function() {
                   $(".project-entry:last").append(formattedImage);
       }
     }
-  })
+  });
 };
 
 $("#mapDiv").append(googleMap);
